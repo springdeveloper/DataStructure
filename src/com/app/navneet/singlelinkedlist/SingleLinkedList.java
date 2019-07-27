@@ -51,7 +51,7 @@ public class SingleLinkedList {
 	}
 	
 	public void addAfterElemnt(Object after,Object elm) {
-		if (after == null && elm==null) {
+		if (after == null || elm==null) {
 			throw new NullPointerException("Null Not Allowed");
 		}
 		Node node = new Node();
