@@ -9,7 +9,7 @@ public class Apss {
 		dl.addFirst(423);
 		dl.addFirst(12);
 		dl.print();
-		//dl.addLast(567);
+		dl.addLast(567);
 		System.out.println("==============");
 		dl.print();
 		System.out.println("============= size "+dl.size);
@@ -17,10 +17,15 @@ public class Apss {
 		dl.addAfter(34,423);
 		System.out.println("==========");
 		dl.print();
-		dl.addAfter(34,123);
+		dl.addAfter(340,123);
 		System.out.println("==========");
 		dl.print();
-
+		dl.delete(567);;
+		System.out.println("==========");
+		dl.print();
+		dl.delete(340);;
+		System.out.println("==========");
+		dl.print();
 	}
 
 }
